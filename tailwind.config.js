@@ -16,6 +16,9 @@ module.exports = {
         cyan: '#79FFE1',
         'blue-500': '#2276FC',
         'yellow-100': '#fef7da',
+        'green': '#6EBE6B',
+        'white': '#FFFFFF',
+        'pupple': '#2C2843'
       },
       spacing: {
         28: '7rem',
@@ -27,6 +30,7 @@ module.exports = {
         tight: 1.2,
       },
       fontSize: {
+        '2xl': '1.25rem',
         '5xl': '2.5rem',
         '6xl': '2.75rem',
         '7xl': '4.5rem',

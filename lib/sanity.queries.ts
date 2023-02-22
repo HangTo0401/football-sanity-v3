@@ -56,6 +56,7 @@ export interface Post {
 }
 
 export interface Settings {
+  prefixTitle?: string,
   title?: string
   description?: any[]
   ogImage?: {

@@ -1,0 +1,3 @@
+.childenMenu {
+    @apply flex flex-col items-center md:flex-row bg-white
+}

@@ -1,3 +1,11 @@
 .portableText a {
   @apply underline transition-colors duration-200 hover:text-success;
 }
+
+.headerTab {
+  @apply flex flex-col items-center md:flex-row;
+}
+
+.childenMenu {
+  @apply flex flex-row bg-white;
+}

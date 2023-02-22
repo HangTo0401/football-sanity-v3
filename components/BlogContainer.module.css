@@ -1,0 +1,3 @@
+.headContainer {
+    @apply h-32 bg-pupple flex flex-col items-center justify-start
+}
