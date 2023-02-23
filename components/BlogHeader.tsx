@@ -25,7 +25,8 @@ export default function BlogHeader({
   switch (level) {
     case 1:
       return (
-        <header className="w-5/6 flex flex-col items-center md:flex-row md:justify-between">
+        <>
+          <header className="w-5/6 flex flex-col items-center md:flex-row md:justify-between">
           <h1 className="font-bold leading-tight tracking-tighter md:pr-8">
             <div className="text-2xl">
               <span className="text-green">
@@ -46,6 +47,15 @@ export default function BlogHeader({
             <PortableText value={description} />
           </h4> */}
         </header>
+        {isTabOneSelected ?
+          <div className="w-5/6 h-14 bg-light-pupple rounded-t-lg">
+            <Match/>
+          </div> :
+          <div>
+            <News/>
+          </div>
+        }
+        </>
       )
 
     case 2:

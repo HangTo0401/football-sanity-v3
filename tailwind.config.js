@@ -18,7 +18,9 @@ module.exports = {
         'yellow-100': '#fef7da',
         'green': '#6EBE6B',
         'white': '#FFFFFF',
-        'pupple': '#2C2843'
+        'pupple': '#2C2843',
+        'light-pupple': '#413C6A',
+        'orange': '#FFB800'
       },
       spacing: {
         28: '7rem',
@@ -40,6 +42,12 @@ module.exports = {
         small: '0 5px 10px rgba(0, 0, 0, 0.12)',
         medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
+      borderRadius: {
+        'border-top-left-radius': '16px',
+        'border-top-right-radius': '16px',
+        'border-bottom-left-radius': '16px',
+        'border-bottom-right-radius': '16px'
+      }
     },
   },
   plugins: [],

@@ -41,7 +41,6 @@ export default function HeaderTab({ isParentMenu, icon, href, name, isSelected, 
                     </div>
                 </Link>
                 <div style={{width: '199px', height: '4px'}} className={isSelected ? `bg-green` : ''}></div>
-                {content}
             </div>
             : <></>
     )
